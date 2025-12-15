@@ -31,9 +31,7 @@ const ServiceCard = ({service , index}) => {
                 </div>
 
             </div>
-
-       
-
+            
     </div>
   )
 }
