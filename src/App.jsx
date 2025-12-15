@@ -7,6 +7,7 @@ import OurWork from './components/OurWork.jsx';
 import Teams from './components/Teams.jsx';
 import ContactUs from './components/ContactUs.jsx';
 import {Toaster} from 'react-hot-toast'
+import Footer from './components/Footer.jsx';
 
 const App = () => {
 
@@ -22,6 +23,7 @@ const App = () => {
       <OurWork/>
       <Teams/>
       <ContactUs/>
+      <Footer theme={theme}/>
     </div>
   )
 }
